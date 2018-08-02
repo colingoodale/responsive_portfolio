@@ -1,13 +1,15 @@
 #backdrop {
     background-color: #FAFAFA
 }
+@media (max-width: 640px) {
 #headerdiv {
     width: 100%;
-    height: 70px;
+    height: 120px;
     background-color: #FFFFFF;
     margin-left: 0px;
 }
-@media screen and (max-width: 640px) {
+}
+@media (max-width: 640px) {
 #frontpagename {
     background-color: #FFFFFF;
     text-align: center;
@@ -15,21 +17,35 @@
     margin-right: auto;
     }
 }
+@media (max-width: 640px){
 .container {
     background-color: #FFFFFF;
     height: 500px;
-    width: 960px;
+    width: 600px;
     margin: 0 auto;
 }
+}
+@media (max-width: 640px){
 .maintitle {
-    padding-left: 50px;
+    text-align:center;
 }
-.imagediv {
+}
+@media (max-width: 640px){
+#imagediv {
     Width: 400px;
-    height: 400px;
-    background-color: red;
-
+    height: 300px;
+    align-content: center;
+    background: red;
 }
+}
+@media (max-width: 640px){
+#headshot {
+    Width: 400px;
+    height: 300px;
+    position: center;
+}
+}
+@media (max-width: 640px){
 #aboutlink {
     background-color: #FFFFFF;
     height:50px;
@@ -40,15 +56,18 @@
     text-align: center;
     padding-top: 15px;
 }
+}
+@media (max-width: 640px){
 #portfolio {
     background-color:#FFFFFF;
     height: 50px;
     width: 90px;
     float: right; 
     font-size: 24;
-    color: Black;
+    color: black;
     text-align: center;
     padding-top: 15px; 
+}
 }
 @media (max-width: 640px) {
 #contact {
@@ -63,12 +82,15 @@
     margin-left: 100px;
     }
 }
+@media (max-width: 640px){
 #headshot {
     Height: 23%;
     Width: 17%;
     float: left;
     margin: 35px;
 }
+}
+@media (max-width: 640px){
  #footerbar {
      position: fixed;
      bottom: 0;
@@ -80,26 +102,38 @@
      border-color: rgb(177, 223, 223);
      margin-left: 0px;
 }
+}
+@media (max-width: 640px){
 Body {
     background-color:#FAFAFA
 }
+}
+@media (max-width: 640px){
 div.gallery {
     margin: 5px;
     border: 5px solid black;
     float: left;
     width: 180px;
 }
+}
+@media (max-width: 640px){
 div.gallery:hover {
     border: 3px solid whitesmoke;
 }
+}
+@media (max-width: 640px){
 div.gallery img {
     width: 100%;
     height: auto;
 }
+}
+@media (max-width: 640px){
 div.desc {
     padding: 15px;
     text-align: center;
 }
+}
+@media (max-width: 640px){
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -109,6 +143,8 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
+}
+@media (max-width: 640px){
 input[type=submit] {
     width: 100%;
     background-color: #FFFFFF;
@@ -119,15 +155,23 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+}
+@media (max-width: 640px){
 input[type=submit]:hover {
     background-color: darkgrey;
 }
+}
+@media (max-width: 640px){
 #form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
+}
+@media (max-width: 640px){
 p {
     text-indent: 10%;
     padding: 15px;
+    float: left;
+}
 }

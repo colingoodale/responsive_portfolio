@@ -15,21 +15,32 @@
     margin-left: 25px;
     }
 }
+@media screen and (max-width: 768px){
 .container {
     background-color: #FFFFFF;
     height: 500px;
     width: 960px;
     margin: 0 auto;
 }
+}
+@media screen and (max-width: 768px){
 .maintitle {
     padding-left: 50px;
 }
-.imagediv {
-    Width: 400px;
-    height: 400px;
-    background-color: red;
-
 }
+@media screen and (max-width: 768px){
+#imagediv {
+    Width: 200px;
+    height: 200px;
+}
+}
+@media (max-width: 768px){
+    #headshot {
+        Width: 200px;
+        height: 200px;
+    }
+    }
+@media screen and (max-width: 768px){
 #aboutlink {
     background-color: #FFFFFF;
     height:50px;
@@ -40,6 +51,8 @@
     text-align: center;
     padding-top: 15px;
 }
+}
+@media screen and (max-width: 768px){
 #portfolio {
     background-color:#FFFFFF;
     height: 50px;
@@ -50,6 +63,8 @@
     text-align: center;
     padding-top: 15px; 
 }
+}
+@media screen and (max-width: 768px){
 #contact {
     background-color: #FFFFFF;
     height:50px;
@@ -60,12 +75,16 @@
     text-align: center;
     padding-top: 15px;
 }
+}
+@media screen and (max-width: 768px){
 #headshot {
     Height: 23%;
     Width: 17%;
     float: left;
     margin: 35px;
 }
+}
+@media screen and (max-width: 768px){
  #footerbar {
      position: fixed;
      bottom: 0;
@@ -77,26 +96,38 @@
      border-color: rgb(177, 223, 223);
      margin-left: 0px;
 }
+}
+@media screen and (max-width: 768px){
 Body {
     background-color:#FAFAFA
 }
+}
+@media screen and (max-width: 768px){
 div.gallery {
     margin: 5px;
     border: 5px solid black;
     float: left;
     width: 180px;
 }
+}
+@media screen and (max-width: 768px){
 div.gallery:hover {
     border: 3px solid whitesmoke;
 }
+}
+@media screen and (max-width: 768px){
 div.gallery img {
     width: 100%;
     height: auto;
 }
+}
+@media screen and (max-width: 768px){
 div.desc {
     padding: 15px;
     text-align: center;
 }
+}
+@media screen and (max-width: 768px){
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -106,6 +137,8 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
+}
+@media screen and (max-width: 768px){
 input[type=submit] {
     width: 100%;
     background-color: #FFFFFF;
@@ -116,15 +149,22 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+}
+@media screen and (max-width: 768px){
 input[type=submit]:hover {
     background-color: darkgrey;
 }
+}
+@media screen and (max-width: 768px){
 #form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
+}
+@media screen and (max-width: 768px){
 p {
     text-indent: 10%;
     padding: 15px;
+}
 }
